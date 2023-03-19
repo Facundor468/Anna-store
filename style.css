@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(196, 196, 196);
+}
+
+/* NAVEGACION*/
+
+.superior-gen{
+    display: flex;
+    padding: 20px 0 0 0;
+    margin: 0 0 30px 0;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.titulo-gen{
+    background-color: black;
+    color: #E5CE80;
+    font-family: 'Ballet', cursive;
+}
+
+.titulo-gen a{
+    color: #E5CE80;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buscador-gen {
+    border-radius: 7px;
+    width: 300px;
+    height: 20px;
+    padding: 15px;
+}
+
+.container-gen{
+    background-color: black;
+    width: 400px;
+    border-radius: 3px;
+    align-self: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.navegador-gen{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.navegador-gen ul li a{
+    color: #E5CE80;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.navegador-gen ul li:hover{
+    background-color: black;
+    border-bottom: 2px solid rgb(201, 173, 13);
+}
+
+/* INDEX */
+
+
+.imagenes img{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.imagenes-inicio{
+    display: flex;
+    justify-content: center;
+}
+
+.ubicacion-padre{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.ubicacion{
+    width: 450px;
+    height: 300px;
+}
+
+/* footer */
+
+.pie{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.dedos{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+/* FIN INICIO */
+
+/* TIENDA */
+
+.imagen-tienda{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 40px;
+    margin: 100px 0 0 0;
+}
+
+
+/* OFERTAS Y NOVEDADES */
+
+.imagenes-of-nov{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 40px;
+    margin: 30px 0 0 0;
+    justify-content: center;
+}
+
+.tarjetas{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+}
+
+/* FIN DESKTOP */
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+
+/* MEDIA QUERY */
+
+
+/* TABLET */
+@media screen and (max-width:768px) {
+    
+}
+
+/* CELULAR */
+@media screen and (max-width:576px) {
+/* Navegacion */
+.superior-gen{
+    flex-wrap: wrap;
+    gap: 10px;
+}
+/* inicio */
+.imagenes img{
+    justify-self: center;
+    width: 150px;
+    height: 200px;
+}
+
+.ubicacion{
+    width: 250px;
+    height: 200px;
+}
+.pie{
+    display: grid;
+    grid-template-columns: 280px 280px;
+    height: 650px;
+}
+
+.dedos{
+    padding: 15px;
+    height: 200px;
+}
+
+/* TIENDA */
+.imagen-tienda{
+    grid-template-columns: 300px 300px;
+}
+
+/* OFERTAS Y NOVEDADES */
+.banner img{
+    width: 576px;
+}
+
+.imagenes-of-nov{
+    justify-content: center;
+    grid-template-columns: 300px 300px;
+}
+}
