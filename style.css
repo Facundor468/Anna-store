@@ -145,12 +145,6 @@ ul{
 
 /* MEDIA QUERY */
 
-
-/* TABLET */
-@media screen and (max-width:768px) {
-    
-}
-
 /* CELULAR */
 @media screen and (max-width:576px) {
 /* Navegacion */
@@ -158,7 +152,22 @@ ul{
         flex-direction: column;
         align-items: center;
 }
+
+.container-gen{
+    width: 55vw;
+}
+
+.navegador-gen{
+    flex-wrap: wrap;
+    gap: 0;
+}
+
 /* inicio */
+
+.imagenes img{
+    width: 30vw;
+    height: 50vw;
+}
 
 .imagenes-inicio{
     flex-wrap: wrap;
