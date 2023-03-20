@@ -155,32 +155,30 @@ ul{
 @media screen and (max-width:576px) {
 /* Navegacion */
 .superior-gen{
-    flex-wrap: wrap;
-    gap: 10px;
+        flex-direction: column;
+        align-items: center;
 }
 /* inicio */
-.imagenes img{
-    justify-self: center;
-    width: 150px;
-    height: 200px;
+
+.imagenes-inicio{
+    flex-wrap: wrap;
 }
 
 .ubicacion{
     width: 250px;
     height: 200px;
 }
+
 .pie{
     display: grid;
-    grid-template-columns: 280px 280px;
-    height: 650px;
+    grid-template-columns: auto auto;
+    height: auto;
 }
 
 .dedos{
-    display: grid;
-    align-items: end;
-    font-size: small;
-    padding: 15px 0 15px 15px;
-    width: auto;
+    width: 50vw;
+    height: 50vw;
+    padding: 1vw;
 }
 
 /* TIENDA */
