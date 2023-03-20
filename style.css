@@ -165,8 +165,8 @@ ul{
 /* inicio */
 
 .imagenes img{
-    width: 30vw;
-    height: 50vw;
+    width: 25vw;
+    height: 45vw;
 }
 
 .imagenes-inicio{
@@ -181,13 +181,18 @@ ul{
 .pie{
     display: grid;
     grid-template-columns: auto auto;
-    height: 150vw;
+    grid-template-rows: 32vw 38vw;
+    height: 85vw;
 }
 
 .dedos{
     width: 50vw;
     height: 50vw;
     padding: 1vw;
+}
+
+p{
+    font-size: small;
 }
 
 /* TIENDA */
