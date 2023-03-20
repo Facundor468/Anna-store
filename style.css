@@ -162,10 +162,15 @@ ul{
     gap: 0;
 }
 
+ul{
+    padding: 1vw;
+    margin: 1vw;
+}
+
 /* inicio */
 
 .imagenes img{
-    width: 25vw;
+    width: 30vw;
     height: 45vw;
 }
 
@@ -174,15 +179,15 @@ ul{
 }
 
 .ubicacion{
-    width: 250px;
-    height: 200px;
+    width: 45vw;
+    height: 35vw;
 }
 
 .pie{
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: 32vw 38vw;
-    height: 85vw;
+    grid-template-rows: 60vw 60vw;
+    height: 120vw;
 }
 
 .dedos{
@@ -197,7 +202,8 @@ p{
 
 /* TIENDA */
 .imagen-tienda{
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 45vw 45vw;
+    margin: 20px 0 0 0;
 }
 
 /* OFERTAS Y NOVEDADES */
@@ -207,6 +213,6 @@ p{
 
 .imagenes-of-nov{
     justify-content: center;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 45vw 45vw;
 }
 }
