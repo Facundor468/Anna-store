@@ -187,7 +187,7 @@ ul{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 60vw 60vw;
-    height: 120vw;
+    height: 130vw;
 }
 
 .dedos{
