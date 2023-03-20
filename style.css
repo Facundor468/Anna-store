@@ -181,7 +181,7 @@ ul{
 .pie{
     display: grid;
     grid-template-columns: auto auto;
-    height: auto;
+    height: 150vw;
 }
 
 .dedos{
