@@ -8,6 +8,10 @@ body{
     background-color: rgb(196, 196, 196);
 }
 
+header{
+    background-color: black;
+}
+
 /* NAVEGACION*/
 
 .superior-gen{
@@ -172,8 +176,11 @@ ul{
 }
 
 .dedos{
-    padding: 15px;
-    height: 200px;
+    display: grid;
+    align-items: end;
+    font-size: small;
+    padding: 15px 0 15px 15px;
+    width: auto;
 }
 
 /* TIENDA */
