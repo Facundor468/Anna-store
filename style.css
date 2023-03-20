@@ -152,7 +152,7 @@ ul{
 }
 
 /* CELULAR */
-@media screen and (max-width:576px) {
+@media screen and (min-width:576px) {
 /* Navegacion */
 .superior-gen{
     flex-wrap: wrap;
