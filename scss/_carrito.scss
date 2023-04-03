@@ -1,0 +1,10 @@
+.tarjetas {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+    margin: 50px;
+
+    .btn-close{
+        display: block;
+    }
+}

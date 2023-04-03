@@ -1,0 +1,24 @@
+.imagenes img {
+    width: 200px;
+    height: 325px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.imagenes-inicio {
+    display: flex;
+    justify-content: center;
+}
+
+.ubicacion-padre {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+    .ubicacion {
+    width: 450px;
+    height: 300px;
+}
+}
+
+

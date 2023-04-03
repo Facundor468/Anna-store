@@ -11,33 +11,38 @@
     <link rel="shortcut icon" href="img/Logo AnnaSeTuMisma.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/scss/style.css">
     <title>Inicio</title>
+    <meta name="description" content="En nuestra tienda online de indumentaria para mujeres. Encuentra las últimas tendencias en ropa, zapatos y accesorios para lucir siempre a la moda.¡Compra ahora!">
+    <meta name="keywords" content="tienda, ropa, mujer, vestimenta, indumentaria, femenina, mujeres, moda">
 </head>
 
 <header>
-    <div class="superior-gen">
-        <h1 class="titulo-gen"> <a href="index.html">Anna Se Tu Misma</a></h1>
-        <div class="container-gen">
-            <nav class="navegador-gen">
-                <ul>
+    <div class="navigation">
+        <h1 class="navigation-title"> <a href="index.html">Anna Se Tu Misma</a></h1>
+        <div class="navigation-container-menu">
+            <nav class="navigation-menu">
+                <ul class="navigation-menu-item">
                     <li><a href="index.html">Inicio</a></li>
                 </ul>
-                <ul>
+                <ul class="navigation-menu-item">
                     <li><a href="html/tienda.html">Tienda</a></li>
                 </ul>
-                <ul>
+                <ul class="navigation-menu-item">
                     <li><a href="html/carrito.html">Carrito</a></li>
                 </ul>
-                <ul>
+                <ul class="navigation-menu-item">
                     <li><a href="html/ofertas.html">Ofertas</a></li>
                 </ul>
-                <ul>
+                <ul class="navigation-menu-item">
                     <li><a href="html/novedades.html">Novedades</a></li>
+                </ul>
+                <ul class="navigation-menu-item">
+                    <li><a href="html/contacto.html">Contactanos</a></li>
                 </ul>
             </nav>
         </div>
-        <input type="search" class="buscador-gen" placeholder="Buscar">
+        <input type="search" class="navigation-search" placeholder="Buscar">
     </div>
 </header>
 
@@ -50,7 +55,7 @@
 
     </div>
     <div class="ubicacion-padre">
-        <img src="img/imagen vidriera.webp" alt="vidriera" class="ubicacion">
+        <img src="./img/vidriera.jpeg" alt="vidriera" class="ubicacion">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d353.8915603344157!2d-64.38636954448332!3d-32.451210340483385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d281f5bd9e6fa7%3A0xfe2df37f997a0242!2sAnna%20Se%20Tu%20Misma!5e0!3m2!1ses-419!2sar!4v1678490870206!5m2!1ses-419!2sar"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -70,30 +75,32 @@
     <section class="pie">
         <div class="dedos">
             <h4>Institucional</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quos exercitationem earum doloremque
-                facilis fugit natus, consequatur sit! Enim aliquid blanditiis, ab quam beatae vero quos quibusdam
-                distinctio eos aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eos
+            <p>En Anna Se Tu Misma, estamos dedicados a ofrecer una amplia selección de prendas de vestir de alta calidad para mujeres de todas las edades y estilos. Nos apasiona la moda y nos esforzamos por ofrecer las últimas tendencias y estilos a precios accesibles.
             </p>
         </div>
         <div class="dedos">
             <h4>Ayuda</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quos exercitationem earum doloremque
-                facilis fugit natus, consequatur sit! Enim aliquid blanditiis, ab quam beatae vero quos quibusdam
-                distinctio eos aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, dolor!
+            <p>Buscamos brindar una experiencia de compra excepcional a todos nuestros clientes. Para ayudarte a aprovechar al máximo tu visita a nuestra tienda en línea, hemos preparado una sección de ayuda con información útil y recursos para resolver cualquier duda o problema que puedas tener.
             </p>
         </div>
         <div class="dedos">
             <h4>Redes Sociales</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quos exercitationem earum doloremque
-                facilis fugit natus, consequatur sit! Enim aliquid blanditiis, ab quam beatae vero quos quibusdam
-                distinctio eos aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            <p>No olvides seguirnos en nuestras redes para no perderte ninguna de nuestras ofertas, nuevos ingresos y
+                mucho mas:
             </p>
+            <ul>
+                <li><a href="https://www.instagram.com/anna_setumisma/" class="link redes" target="_blank">instagram</a>
+                </li>
+                <li><a href="https://www.facebook.com/analia.dominguez.14" class="link redes"
+                        target="_blank">facebook</a></li>
+            </ul>
         </div>
         <div class="dedos">
             <h4>Centro De Atencion Al Cliente</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quos exercitationem earum doloremque
-                facilis fugit natus, consequatur sit! Enim aliquid blanditiis, ab quam beatae vero quos quibusdam
-                distinctio eos aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nulla
+            <p>Estamos comprometidos en ofrecer un servicio de alta calidad a nuestros clientes en todo momento. Si
+                necesitas ayuda con alguno de nuestros productos o servicios, no dudes en ponerte en contacto con
+                nosotros de Lunes a Viernes de 09:00hs a 20:00hs <a href="html/contacto.html"
+                    class="link contactanos">contactanos</a>
             </p>
         </div>
     </section>

@@ -11,33 +11,38 @@
     <link rel="shortcut icon" href="../img/Logo AnnaSeTuMisma.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../scss/style.css">
     <title>Ofertas</title>
+    <meta name="description" content="Encontra las mejores ofertas en Anna se tu Misma">
+    <meta name="keywords" content="tienda, ropa, mujer, vestimenta, indumentaria, femenina, mujeres, moda">
 </head>
 
 <header>
-    <div class="superior-gen">
-        <h1 class="titulo-gen"> <a href="../index.html">Anna Se Tu Misma</a></h1>
-        <div class="container-gen">
-            <nav class="navegador-gen">
-                <ul>
+    <div class="navigation">
+        <h1 class="navigation-title"> <a href="../index.html">Anna Se Tu Misma</a></h1>
+        <div class="navigation-container-menu">
+            <nav class="navigation-menu">
+                <ul class="navigation-menu-item">
                     <li><a href="../index.html">Inicio</a></li>
                 </ul>
-                <ul>
+                <ul class="navigation-menu-item">
                     <li><a href="tienda.html">Tienda</a></li>
                 </ul>
-                <ul>
+                <ul class="navigation-menu-item">
                     <li><a href="carrito.html">Carrito</a></li>
                 </ul>
-                <ul>
+                <ul class="navigation-menu-item">
                     <li><a href="ofertas.html">Ofertas</a></li>
                 </ul>
-                <ul>
+                <ul class="navigation-menu-item">
                     <li><a href="novedades.html">Novedades</a></li>
+                </ul>
+                <ul class="navigation-menu-item">
+                    <li><a href="contacto.html">contactanos</a></li>
                 </ul>
             </nav>
         </div>
-        <input type="search" class="buscador-gen" placeholder="Buscar">
+        <input type="search" class="navigation-search" placeholder="Buscar">
     </div>
 </header>
 
@@ -45,13 +50,13 @@
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../img/prueba de banner 1.png" class="d-block w-100" alt="banner">
+                <img src="../img/prueba de banner 5.png" class="d-block w-100" alt="banner">
             </div>
             <div class="carousel-item">
                 <img src="../img/prueba de banner 2.png" class="d-block w-100" alt="banner">
             </div>
             <div class="carousel-item">
-                <img src="../img/prueba de banner 3.png" class="d-block w-100" alt="banner">
+                <img src="../img/prueba de banner 1.png" class="d-block w-100" alt="banner">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -66,14 +71,51 @@
         </button>
     </div>
 
-    <div class="imagenes imagenes-of-nov">
-        <img src="../img/ropa 7.jpeg" alt="ropa">
-        <img src="../img/ropa 8.jpeg" alt="ropa">
-        <img src="../img/ropa 3.jpeg" alt="ropa">
-        <img src="../img/ropa 4.jpeg" alt="ropa">
-        <img src="../img/ropa 2.jpeg" alt="ropa">
-        <img src="../img/ropa 5.jpeg" alt="ropa">
+    <div class="imagenes imagenes-of-nov" style="width: 18rem;">
+        <div class="card-body">
+          <img src="../img/ropa 17.jpeg" class="card-img-top" alt="ropa femenina">
+          <h5 class="card-title">Saco rosa largo</h5>
+          <p class="card-text">$7500</p>
+          <a href="#" class="btn btn-primary">Añadir a carrito</a>
+        </div>
+
+        <div class="card-body">
+        <img src="../img/ropa 15.jpeg" class="card-img-top" alt="ropa femenina">
+          <h5 class="card-title">Chaleco engomado chocolate</h5>
+          <p class="card-text">$10500</p>
+          <a href="#" class="btn btn-primary">Añadir a carrito</a>
+        </div>
+
+        <div class="card-body">
+          <img src="../img/ropa 14.jpg" class="card-img-top" alt="ropa femenina">  
+          <h5 class="card-title">pantalon bengalina</h5>
+          <p class="card-text">$5500</p>
+          <a href="#" class="btn btn-primary">Añadir a carrito</a>
+        </div>
+
+          <div class="card-body">
+            <img src="../img/ropa 13.jpg" class="card-img-top" alt="ropa femenina">
+            <h5 class="card-title">Saco verde</h5>
+            <p class="card-text">$4800</p>
+            <a href="#" class="btn btn-primary">Añadir a carrito</a>
+          </div>
+        
+          <div class="card-body">
+            <img src="../img/ropa 18.jpeg" class="card-img-top" alt="ropa femenina">
+            <h5 class="card-title">Campera de jean verde</h5>
+            <p class="card-text">$10800</p>
+            <a href="#" class="btn btn-primary">Añadir a carrito</a>
+          </div>
+         
+          <div class="card-body">
+            <img src="../img/ropa 20.jpeg" class="card-img-top" alt="ropa femenina">
+            <h5 class="card-title">Pantalon sastrero verde</h5>
+            <p class="card-text">$6700</p>
+            <a href="#" class="btn btn-primary">Añadir a carrito</a>
+          </div>
     </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
