@@ -19,6 +19,9 @@
 .ubicacion-padre .ubicacion {
   width: 450px;
   height: 300px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-right: 10px;
 }
 
 .imagenes-tienda {
@@ -115,6 +118,7 @@ header {
   align-items: center;
   padding: 20px 10px;
   gap: 20px;
+  margin-bottom: 20px;
 }
 .navigation .navigation-title {
   color: #E5CE80;
@@ -157,6 +161,7 @@ header {
   display: flex;
   justify-content: center;
   height: 400px;
+  margin-top: 50px;
 }
 .pie .dedos {
   width: 300px;
@@ -174,10 +179,14 @@ header {
   -moz-text-align-last: center;
        text-align-last: center;
 }
-.card-body .btn-primary:hover {
+.card-body .btn-primary {
   background-color: #000000;
   border-color: #E5CE80;
   color: #E5CE80;
+  transition: 0.3s ease all;
+}
+.card-body .btn-primary:hover {
+  transform: scale(1.05);
 }
 
 .imagenes img {
@@ -201,6 +210,58 @@ header {
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------- */
+/* Estilos media query Tablet */
+/* Navegacion */
+@media screen and (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+  }
+  /* Inicio */
+  .imagenes img {
+    width: 30vw;
+    height: 45vw;
+  }
+  .ubicacion-padre .ubicacion {
+    width: 45vw;
+    height: 35vw;
+  }
+  .pie .dedos {
+    padding: 1vw;
+  }
+  p {
+    font-size: small;
+  }
+  /* TIENDA */
+  .imagenes-tienda {
+    grid-template-columns: 45vw 45vw;
+    margin: 20px 0 0 0;
+  }
+  /* OFERTAS Y NOVEDADES */
+  .banner img {
+    width: 576px;
+  }
+  .imagenes-of-nov {
+    grid-template-columns: 45vw 45vw;
+    margin: 0px;
+  }
+  /* Formulario de contacto */
+  .contact_form {
+    width: 90vw;
+    margin: 10vw auto;
+  }
+  .contact_form .contact-title {
+    font-size: 7vw;
+  }
+  .contact_form .contacto-text input {
+    width: 75vw;
+  }
+  .contact_form .contacto-text #mensaje {
+    width: 80vw;
+  }
+  .contact_form #enviar {
+    width: 80vw;
+  }
+}
 /* Estilos media query Mobile */
 @media screen and (max-width: 576px) {
   /* Navegacion */
