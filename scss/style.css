@@ -4,6 +4,7 @@
   height: 325px;
   margin: 20px;
   border: 1px solid black;
+  justify-items: center;
 }
 
 .imagenes-inicio {
@@ -29,6 +30,7 @@
   grid-template-columns: 300px 300px 300px 300px;
   margin: 50px 0 0 50px;
   gap: 30px;
+  justify-items: center;
 }
 
 .tarjetas {
@@ -157,7 +159,7 @@ header {
 }
 
 .pie {
-  background-color: grey;
+  background-color: black;
   display: flex;
   justify-content: center;
   height: 400px;
@@ -167,9 +169,10 @@ header {
   width: 300px;
   height: 300px;
   padding: 20px;
+  color: #E5CE80;
 }
 .pie .dedos .link {
-  color: #000000;
+  color: #E5CE80;
   display: flex;
   font-variant: all-petite-caps;
   margin: 15px;
@@ -195,6 +198,7 @@ header {
   margin: 20px;
   border: 1px solid black;
   transition: 0.3s ease all;
+  justify-items: center;
 }
 
 .imagenes img:hover {
@@ -207,6 +211,7 @@ header {
   grid-template-columns: 300px 300px 300px;
   gap: 30px;
   margin: 50px 0 0 200px;
+  justify-items: center;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------- */
